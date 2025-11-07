@@ -39,7 +39,6 @@
                     <th>Название</th>
                     <th>Описание</th>
                     <th>Цена</th>
-                    <th>Дата создания</th>
                     <th>Действия</th>
                   </tr>
                 </thead>
@@ -50,7 +49,6 @@
                       <td>{{ product.name }}</td>
                       <td>{{ product.info }}</td>
                       <td>{{ product.price }} руб.</td>
-                      <td>{{ product.created_at|date:"Y-m-d H:i:s" }}</td>
                       <td>
                         <button class="btn btn-sm btn-primary edit-btn" data-id="{{ product.id }}" data-name="{{ product.name }}" data-desc="{{ product.info }}" data-price="{{ product.price }}">Edit</button>
                         <button class="btn btn-sm btn-danger delete-btn" data-id="{{ product.id }}" data-name="{{ product.name }}">Delete</button>
