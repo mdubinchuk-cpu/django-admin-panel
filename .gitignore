@@ -1,0 +1,75 @@
+*.egg*
+/docs/_build/
+/node_modules/
+build/
+env
+/staticfiles/
+
+#src
+#*.sqlite*
+
+#.env
+node_modules
+
+
+
+# === БАЗЫ ДАННЫХ ===
+pgdata/
+*.db
+*.sqlite3
+
+# === СЕКРЕТЫ ===
+.env
+.env.local
+.env.*.local
+
+# === Python / Django ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.mypy_cache/
+.pytest_cache/
+.dmypy.json
+
+# === Django ===
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+*.log
+*.pot
+*.pyc
+
+# === IDE ===
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# === OS ===
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# === Другое ===
+*.bak
+*.swp
+*~
